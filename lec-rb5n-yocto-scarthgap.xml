@@ -22,7 +22,7 @@
   <project name="openembedded/bitbake" path="bitbake" remote="github" revision="2.8"/>
   <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" remote="github"/>
   <project name="openembedded/openembedded-core" path="layers/openembedded-core" remote="github"/>
-  <project name="meta-adlink-qualcomm" path="meta-adlink-qualcomm" remote="adlink" revision="29d9522e5479676cacd5684783ff51daae239c1b" upstream="scarthgap"/>
+  <project name="meta-adlink-qualcomm" path="meta-adlink-qualcomm" remote="adlink" revision="f350c52b2b039da375882f24eff61f8fed568cc1" upstream="scarthgap"/>
   <linkfile dest="adlink-rb5n-setup-release.sh" src="conf/adlink-conf/adlink-rb5n-setup-release.sh"/>
 </manifest>
 
