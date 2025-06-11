@@ -39,5 +39,5 @@
   <project name="meta-adlink-nxp" path="sources/meta-adlink-nxp" remote="adlink" revision="1996504f3b07045e550a085add0a474398b9eca8"  upstream="Metrino">
     <linkfile dest="adlink-imx-setup-release.sh" src="conf/adlink-conf/adlink-imx-setup-release.sh"/>
   </project>
-  <project name="meta-adlink-sema" path="sources/meta-adlink-sema" remote="adlink" revision="a8c87598dbb4218445b8a7fe0f3c0a688b8b4b8e" upstream="kirkstone"/>
+  <project name="meta-adlink-sema" path="sources/meta-adlink-sema" remote="adlink" revision="ffae88ce2ac9106fd8b8874ca9b75475ca344dc7" upstream="kirkstone"/>
 </manifest>
