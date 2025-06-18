@@ -1,0 +1,31 @@
+header:
+  version: 8
+
+machine: sp2-imx8mpdesktop
+distro: imx-desktop-xwayland
+target:
+  - imx-image-desktop
+
+repos:
+  meta-nxp-desktop:
+    url: https://github.com/nxp-imx/meta-nxp-desktop
+    path: layers/meta-nxp-desktop
+    refspec: rel_lf_5.15.71_2.2.0_ldp
+
+local_conf_header:
+  preferred_versions: |
+    PREFERRED_VERSION_imx-gpu-viv = "6.4.3.p4.6-aarch64"
+  standard: |
+    CONF_VERSION = "2"
+    PACKAGE_CLASSES = "package_rpm"
+    USER_CLASSES = "buildstats"
+    PATCHRESOLVE = "noop"
+  package-configs: |
+    RDEPENDS:qtbase:remove="vulkan-loader"
+    RDEPENDS:qtbase:append=" libvulkan-imx"
+  package-masks: |
+    BBMASK += "poky/meta/recipes-devtools/pseudo"
+  desktop-packages: |
+    APTGET_EXTRA_PACKAGES += "python3-pip"
+    YOCTO-DEPENDS-LIST:append = " libc6-dev python3-2to3 python3-profile"
+    APTGET_DEFAULT_OPTS:append = " --allow-insecure-repositories"
