@@ -11,6 +11,7 @@
   <remote name="ossystems"   fetch="https://github.com/OSSystems"/>
   <remote name="qt"          fetch="https://github.com/YoeDistro"/>
   <remote name="timesys"     fetch="https://github.com/TimesysGit"/>
+  <remote name="nxp-appcodehub" fetch="https://github.com/nxp-appcodehub"/>
 
   <remote name="imx"         fetch="https://github.com/nxp-imx"/>
   <remote name="imx-support" fetch="https://github.com/nxp-imx-support"/>
