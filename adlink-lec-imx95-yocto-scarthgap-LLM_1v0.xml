@@ -47,7 +47,7 @@
 
   <project name="meta-adlink-eiq-genai-flow" path="sources/meta-adlink-eiq-genai-flow" remote="adlink" revision="e48a37cc30d543673b9b9cfa4f9cda169017a327" upstream="main"/>
   <project name="meta-adlink-demo" path="sources/meta-adlink-demo" remote="adlink" revision="3be8770c057d7fc336e434de9816084ddb1eb4de" upstream="scarthgap"/>
-  <project name="meta-adlink-nxp" path="sources/meta-adlink-nxp" remote="adlink" revision="94452d1725f4b527ffd5851a644d0f2bce6dc966"  upstream="scarthgap">
+  <project name="meta-adlink-nxp" path="sources/meta-adlink-nxp" remote="adlink" revision="81590fe7773d9c2946fe568df2cf1a2651fa46e8"  upstream="scarthgap">
     <linkfile dest="adlink-imx-setup-release.sh" src="conf/adlink-conf/adlink-imx-setup-release.sh"/>
   </project>
 </manifest>
