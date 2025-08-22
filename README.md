@@ -1,3 +1,3 @@
 ## Supported Modules
 
-- Absolute-Vision board
+- LEC-MTK-I1200
