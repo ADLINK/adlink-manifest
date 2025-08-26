@@ -40,5 +40,5 @@
     <linkfile dest="adlink-imx-setup-release.sh" src="conf/adlink-conf/adlink-imx-setup-release.sh"/>
   </project>
   <project name="meta-adlink-demo" path="sources/meta-adlink-demo" remote="adlink" revision="ff5f6e98f58dcda3bbc115ca9bca2fef8d45a18e" upstream="kirkstone"/>
-  <project name="meta-adlink-sema" path="sources/meta-adlink-sema" remote="adlink" revision="cfb250504d637bda192500401ae51a95d5208d0c" upstream="kirkstone"/>
+  <project name="meta-adlink-sema" path="sources/meta-adlink-sema" remote="adlink" revision="2355fef2a98043d6fcbaa9ac13e8e3b2d6a459ac" upstream="kirkstone"/>
 </manifest>
