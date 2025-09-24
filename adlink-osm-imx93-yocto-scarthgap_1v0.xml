@@ -43,7 +43,7 @@
   <project name="meta-nxp-demo-experience" remote="imx-support" path="sources/meta-nxp-demo-experience" revision="refs/tags/rel_imx_6.6.52_2.2.0" upstream="scarthgap-6.6.52-2.2.0"/>
    
    <project name="meta-adlink-demo" path="sources/meta-adlink-demo" remote="adlink" revision="3be8770c057d7fc336e434de9816084ddb1eb4de" upstream="scarthgap"/>
-  <project name="meta-adlink-nxp" path="sources/meta-adlink-nxp" remote="adlink" revision="3bcfacbc3c8dab8c803599b58f75a5c4d9108d4b"  upstream="scarthgap">
+  <project name="meta-adlink-nxp" path="sources/meta-adlink-nxp" remote="adlink" revision="e373f7d76a4b6b07c24e4a6a7de59df68413eac0"  upstream="scarthgap">
     <linkfile dest="adlink-imx-setup-release.sh" src="conf/adlink-conf/adlink-imx-setup-release.sh"/>
   </project>
 </manifest>
