@@ -4,11 +4,10 @@
 	<remote name="yocto" fetch="https://git.yoctoproject.org" />
 	<remote name="oe" fetch="https://git.openembedded.org" />
 	<remote name="github" fetch="https://github.com/" />
-	<remote name="collabora" fetch="https://gitlab.collabora.com/mediatek/aiot/rity" />
 	<remote fetch="https://github.com/ADLINK" name="adlink"/>
 
 	<default revision="scarthgap" />
-	<project name="meta-adlink-mtk.git" path="src/meta-adlink-mtk" remote="adlink" revision="b984971972a3f45edf936bd9f4534702bf1e78f0" upstream="rity-scarthgap-v25.0">
+	<project name="meta-adlink-mtk.git" path="src/meta-adlink-mtk" remote="adlink" revision="3a73b136152f52fc880bed4c8f5903009273fb1d" upstream="rity-scarthgap-v25.0">
 		<copyfile dest="setup_adlink_env.sh" src="setup_adlink_env.sh"/>
     </project>
 
