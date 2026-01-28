@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+ 
 <manifest>
-
+ 
         <default sync-j="2"/>
-
-
+ 
+ 
 <remote fetch="https://git.yoctoproject.org/" name="yocto" />
 <remote fetch="https://git.openembedded.org/" name="oe"/>
-<remote fetch="https://git.yoctoproject.org/" name="dpdk"/>
-<remote fetch="https://git.yoctoproject.org/" name="amd"/>
 <remote fetch="https://github.com/ADLINK" name="adlink"/>
-
-<project name="poky" remote="yocto" revision="b3e316e8486e5462c3c71a9c8248779a5c253385" upstream="kirkstone"/>
-<project name="meta-openembedded" path="meta-openembedded" remote="oe" revision="ce9c0d76171ce9d07e4bcb702b750416b265562a" upstream="kirkstone"/>
-<project name="meta-adlink-sema" path="meta-adlink-sema" remote="adlink" revision="ffae88ce2ac9106fd8b8874ca9b75475ca344dc7" upstream="kirkstone"/>
-<project name="meta-amd" path="meta-amd" remote="amd" revision="9a78606dc57c1f68c17ab7ce537857ff7b6338af" upstream="kirkstone"/>
-<project name="meta-dpdk" path="meta-dpdk" remote="dpdk" revision="12cd9701455f17ff86681dba86e5c10f7b0deb7c" upstream="kirkstone"/>
-<project name="meta-adlink-amd" path="meta-adlink-amd" remote="adlink" revision="47d500445ad9ee24ee664d75bc03e15e3c04812f" upstream="kirkstone">
-    <linkfile dest="adlink-amd-setup-release.sh" src="scripts/adlink-amd-setup-release.sh"/>
-</project>       
+ 
+<project name="poky" remote="yocto" revision="72983ac391008ebceb45edc7a8f0f6d5f4fe715c" upstream="scarthgap"/>
+<project name="meta-security" remote="yocto" revision="afbbe28cee4af2c6760aaead43a4a3ef29969809" upstream="scarthgap"/>
+<project name="meta-openembedded" path="meta-openembedded" remote="oe" revision="2b26d30fc7f478f5735d514f0c1bc28f6a4148b6" upstream="scarthgap"/>
+<project name="meta-adlink-sema" path="meta-adlink-sema" remote="adlink" revision="264e8022b2f13c91399a70a6a77cb97f19de731f" upstream="scarthgap"/>
+<project name="meta-amd" path="meta-amd" remote="yocto" revision="43dccaa90da860316a79ad215acee6a0e0d0ddf5" upstream="scarthgap"/>
+<project name="meta-dpdk" path="meta-dpdk" remote="yocto" revision="3784493157184158b2844c8ad573c3dc7d52a34d" upstream="scarthgap"/>
+<project name="meta-adlink-amd" path="meta-adlink-amd" remote="adlink" revision="c84d287964ac68100bf6fc16b1ed32ea607e9fed" upstream="scarthgap">
+<linkfile dest="adlink-amd-setup-release.sh" src="scripts/adlink-amd-setup-release.sh"/>
+</project>
 </manifest>
-
+Making sure you're not a bot!
+ 
