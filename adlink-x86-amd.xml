@@ -18,6 +18,4 @@
 <project name="meta-adlink-amd" path="meta-adlink-amd" remote="adlink" revision="c84d287964ac68100bf6fc16b1ed32ea607e9fed" upstream="scarthgap">
 <linkfile dest="adlink-amd-setup-release.sh" src="scripts/adlink-amd-setup-release.sh"/>
 </project>
-</manifest>
-Making sure you're not a bot!
- 
+</manifest> 
