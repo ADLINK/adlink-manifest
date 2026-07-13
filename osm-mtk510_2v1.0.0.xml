@@ -9,7 +9,7 @@
 
         <default revision="kirkstone" />
 
-        <project name="meta-adlink-mtk.git" path="src/meta-adlink-mtk" remote="adlink" revision="f9ef140b63559e8acb036bd6d28d6024a43b08e1" upstream="rity-kirkstone-v24.1">
+        <project name="meta-adlink-mtk.git" path="src/meta-adlink-mtk" remote="adlink" revision="dba2be7b204d1313741f484b7db9f06801d0fe6a" upstream="rity-kirkstone-v24.1">
                 <copyfile dest="setup_adlink_env.sh" src="setup_adlink_env.sh"/>
         </project>
 
