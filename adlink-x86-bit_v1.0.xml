@@ -4,19 +4,25 @@
   <default sync-j="2"/>
 
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote fetch="https://git.openembedded.org" name="oecore"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
   <remote fetch="https://github.com/ADLINK" name="adlink"/>
-  <remote fetch="https://github.com/intel" name="intel"/>  
-  
-  <project name="poky" path="poky" remote="yocto" revision="6ced2e7ca3b58130154035ad61685cd222909680" />
-  <project name="meta-openembedded" path="meta-openembedded" remote="oe" revision="2338409efc51cf2022ff5610a9fb689251706e2b"/>
-  <project name="meta-intel" path="meta-intel" remote="yocto" revision="d172a00f487a8ea4391b96e0f6cef5279c5a07d7"/>
+  <remote fetch="https://github.com/intel" name="intel"/>
+  <remote fetch="https://github.com/Wind-River/" name="secure"/>
+
+  <project name="bitbake" path="bitbake" remote="oecore" revision="fae9db3168dbff1b8c76fe9c6726a9687ff97514" upstream="2.18"/>
+  <project name="openembedded-core" path="openembedded-core" remote="oecore" revision="f09a0f28aeb54ddd90415dd458338e1565bb5a49" upstream="wrynose"/>
+  <project name="meta-yocto" path="meta-yocto" remote="yocto" revision="1b132647002eea43a2c7a7f857f63f42dacbc26c" upstream="wrynose"/>
+  <project name="meta-openembedded" path="meta-openembedded" remote="oe" revision="af8b6d6b2f0b11595b0a0d5b82efa3129d52a628" upstream="wrynose"/>
+  <project name="meta-intel" path="meta-intel" remote="yocto" revision="79a9681ce83f6bf36aede3aeb8c1707d29bca329" upstream="wrynose"/>
+  <project name="meta-openvino" path="meta-openvino" remote="intel" revision="12dac884b60adff733a71b92cad537483a9b6888" upstream="wrynose"/>
+  <project name="meta-secure-core" path="meta-secure-core" remote="secure" revision="07a99ae241acd488a2feda1ededf87dc70dfde80" upstream="wrynose"/>
 
   <project name="meta-adlink-sema" path="meta-adlink-sema" remote="adlink" revision="9e511f1546db812ae76a903f140b85b75daedc0e"/>
-  <project name="meta-adlink-x86-64bit" path="meta-adlink-x86-64bit" remote="adlink" revision="5a140bf2df5a442fcb4164f5ecfa4d97f589eb37">
+  <project name="meta-adlink-intel" path="meta-adlink-intel" remote="adlink" revision="d6d72afd6ae820e57845d3b2885196ddfb224f26" upstream="wrynose">
     <linkfile dest="adlink-intel-setup-release.sh" src="scripts/adlink-intel-setup-release.sh"/>
   </project>
-		
-  <project name="meta-virtualization" path="meta-virtualization" remote="yocto" revision="54b806b1985f3989722ee308e1073530fe3328c1"/>
-    <project name="meta-security" path="meta-security" remote="yocto" revision="11ea91192d43d7c2b0b95a93aa63ca7e73e38034"/>  
+
+  <project name="meta-virtualization" path="meta-virtualization" remote="yocto" revision="d7b0cd1e5f0f28aec111137f4490763d5db01fd6" upstream="wrynose"/>
+  <project name="meta-security" path="meta-security" remote="yocto" revision="c0d1d6200e7a84c39fb940cb1f22aad4b0b3d808" upstream="wrynose"/>
 </manifest>
