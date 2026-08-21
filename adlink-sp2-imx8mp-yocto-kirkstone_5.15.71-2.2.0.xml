@@ -36,7 +36,7 @@
   <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="9482648daf0bb42ff3475e7892542cf99f3b8d48" upstream="master"/>
   <project name="poky" path="sources/poky" remote="yocto" revision="24a3f7b3648185e33133f5d96b184a6cb6524f3d" upstream="kirkstone"/>
 
-  <project name="meta-adlink-nxp" path="sources/meta-adlink-nxp" remote="adlink" revision="29eb50aa40aeacd046f1c746757660df59803c2a"  upstream="kirkstone">
+  <project name="meta-adlink-nxp" path="sources/meta-adlink-nxp" remote="adlink" revision="62485ea742e1453af0bc66d07c1c90fd115d9f11"  upstream="kirkstone">
     <linkfile dest="adlink-imx-setup-release.sh" src="conf/adlink-conf/adlink-imx-setup-release.sh"/>
   </project>
   <project name="meta-adlink-demo" path="sources/meta-adlink-demo" remote="adlink" revision="8582e0aaa003409eddaea0e29fef8586d8763a32" upstream="kirkstone">
