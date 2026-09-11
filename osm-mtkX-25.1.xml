@@ -9,7 +9,7 @@
 
 	<default revision="scarthgap" />
 
-	<project name="meta-adlink-mtk.git" path="src/meta-adlink-mtk" remote="adlink" revision="a1ac5ae8734c72e3ea751f095244cf474ed9dae8" upstream="rity-scarthgap-v25.1">
+	<project name="meta-adlink-mtk.git" path="src/meta-adlink-mtk" remote="adlink" revision="982a9c92f36b68405ea48f454207a5ea2e6a7948" upstream="rity-scarthgap-v25.1">
 		<copyfile dest="setup_adlink_env.sh" src="setup_adlink_env.sh" />
 	</project>
 
