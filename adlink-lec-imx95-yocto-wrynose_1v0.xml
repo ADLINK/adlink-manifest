@@ -45,7 +45,7 @@
   <project name="meta-nxp-connectivity" remote="imx" path="sources/meta-nxp-connectivity" revision="refs/tags/rel_imx_6.18.20_2.0.0" upstream="imx_matter_2026_q1-post" />
   <project name="meta-nxp-demo-experience" remote="imx-support" path="sources/meta-nxp-demo-experience" revision="refs/tags/rel_imx_6.18.20_2.0.0" upstream="wrynose-6.18.20-2.0.0" />
 
-  <project name="meta-adlink-nxp" path="sources/meta-adlink-nxp" remote="adlink" revision="04dd18f7925f196cc0bb8341afd3357e4856585e"  upstream="wrynose">
+  <project name="meta-adlink-nxp" path="sources/meta-adlink-nxp" remote="adlink" revision="30e0bed207743b27c2d7b031efc3556ba4e35b6e"  upstream="wrynose">
      <linkfile dest="adlink-imx-setup-release.sh" src="conf/adlink-conf/adlink-imx-setup-release.sh"/>
   </project>
 
