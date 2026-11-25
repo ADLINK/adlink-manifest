@@ -48,7 +48,7 @@
 
   <project name="meta-updater" remote="uptane" path="sources/meta-updater" revision="f0e1ccafaa877d2781ed953236981dac57439dc8" upstream="wrynose"/>
 
-  <project name="meta-adlink-nxp" path="sources/meta-adlink-nxp" remote="adlink" revision="18776112f652e4441af6955680aea2c60e9c1750"  upstream="wrynose">
+  <project name="meta-adlink-nxp" path="sources/meta-adlink-nxp" remote="adlink" revision="d5ad4fb563727b56b25ac945ad4e52cf3a569a59"  upstream="wrynose">
      <linkfile dest="adlink-imx-setup-release.sh" src="conf/adlink-conf/adlink-imx-setup-release.sh"/>
   </project>
 
